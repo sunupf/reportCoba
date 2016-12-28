@@ -10,5 +10,8 @@
     "dashboard"
   ],
   "author": "sunupf",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "semantic-ui-table": "^2.2.3"
+  }
 }

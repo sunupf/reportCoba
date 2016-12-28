@@ -5,23 +5,78 @@
     <title>Coba Report</title>
     <link rel="stylesheet" href="/assets/normalize.css">
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/node_modules/semantic-ui-table/table.min.css">
   </head>
   <body>
     <div class="container">
       <div class="leftMenu">
         <div class="headerMenu">
-
+          <i class="batch batch--large" data-icon="&#xf142"></i>coba
         </div>
         <div class="menu">
           <ul class="menuList">
-            <li class="menuItem"><img src="assets/batch-master/svg/compass.svg" alt="summaries">SUMMARIES</li>
-            <li class="menuItem"><img src="assets/batch-master/svg/folder.svg" alt="summaries">TEST CASES</li>
+            <li class="menuItem "> <a href="#"><i class="batch" data-icon="&#xF147"></i> SUMMARIES</a> </li>
+            <li class="menuItem active"> <a href="#"><i class="batch" data-icon="&#xF0D1"></i> TEST CASES </a> </li>
           </ul>
         </div>
       </div>
       <div class="content">
         <div class="headerContent">
-
+          <h2>Test Case : Registration</h2>
+        </div>
+        <div class="main">
+          <h3>Table Perbandingan :</h3>
+          <table class="ui striped table">
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>Firefox</th>
+                <th>Chrome</th>
+                <th>Internet Explorer</th>
+                <th>Opera</th>
+                <th>Safari</th>
+                <th>Phantom JS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>2.4 s</td>
+                <td>1.3 s</td>
+                <td>2.0 s</td>
+                <td>1.9 s</td>
+                <td>1.8 s</td>
+                <td>0.9 s</td>
+              </tr>
+              <tr>
+                <td>2.</td>
+                <td>2.4 s</td>
+                <td>1.3 s</td>
+                <td>2.0 s</td>
+                <td>1.9 s</td>
+                <td>1.8 s</td>
+                <td>0.9 s</td>
+              </tr>
+              <tr>
+                <td>3.</td>
+                <td>2.4 s</td>
+                <td>1.31 s</td>
+                <td>2.03 s</td>
+                <td>1.9 s</td>
+                <td>1.81 s</td>
+                <td>0.92 s</td>
+              </tr>
+              <tr>
+                <td>4.</td>
+                <td>2.0 s</td>
+                <td>1.3 s</td>
+                <td>1.0 s</td>
+                <td>1.9 s</td>
+                <td>1.94 s</td>
+                <td>0.76 s</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
